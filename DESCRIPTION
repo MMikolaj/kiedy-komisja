@@ -1,0 +1,11 @@
+Package: KiedyKomisja
+Title: Kiedy Komisja
+Version: 0.0.1
+Authors@R:
+    c(person(given = "Mikolaj",
+             family = "Mazurkiewicz",
+             role = c("aut", "cre"),
+             email = "mikolajmazurkiewicz.90@gmail.com"))
+Description: Zestawienie wszystkich nadchodzących posiedzeń sejmowych komisji śledczych w jednym miejscu
+Imports: rvest, rmarkdown, htmltools, purrr
+License: GPL (>= 2)
