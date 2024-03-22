@@ -29,6 +29,9 @@ komisje_df <-
                                    "https://www.sejm.gov.pl/Sejm10.nsf/PlanPosKom.xsp?view=2&komisja=SKPG")
             )
 
+hr(style="border-top: 3px solid #d57f7f;")
+br()
+
 div(
   pmap(list(komisje_df$komisja, komisje_df$komisja_link, komisje_df$posiedzenia_link), 
        function(x, y, z) div(h1(a(href=y, x, target="_blank")),
